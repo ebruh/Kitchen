@@ -1,0 +1,13 @@
+.logo{
+    background-image: url(../img/assets/backgrounds/landing.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%;
+}
+
+#islii{
+    text-align: center;
+    color: white;
+}
