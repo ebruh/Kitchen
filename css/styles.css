@@ -14,20 +14,42 @@
 
 #center{
     background-color: #F15A29; 
-    padding-left: 30px;
+    text-align: center;
     color: white;
     margin: 0%;
+    padding: 17px;
 }
 
 .center{
-    background-color: silver; 
-    padding-left: 30px;
+    background-color: silver;
+    text-align: center; 
     color: white;
     margin: 0%;
+    padding: 17px;
+    
 }
 
 .breakfast{
     background-image: url(../img/assets/foodtop/breakfast.jpg);
     text-align: center;
     color: white;
+    margin: 0%;
+    padding: 50px;
+}
+
+.lunch{
+    background-image: url(../img/assets/foodtop/lunch.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 0%;
+}
+
+#dinner{
+    background-image: url(../img/assets/foodtop/dinner.jpg);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin: 0%;
 }
