@@ -13,11 +13,17 @@
 }
 
 #center{
+    background-color: #F15A29; 
     padding-left: 30px;
+    color: white;
+    margin: 0%;
 }
 
 .center{
+    background-color: silver; 
     padding-left: 30px;
+    color: white;
+    margin: 0%;
 }
 
 
