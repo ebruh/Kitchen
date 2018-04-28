@@ -61,4 +61,11 @@
 
 .btn-amber{
     color: red;
+    image-rendering: auto;
+}
+
+.food-tabs{
+    background-image: url(../img/assets/backgrounds/foodsBg.jpg);
+    padding: 42px;
+    margin: 70px;
 }
