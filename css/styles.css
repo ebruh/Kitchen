@@ -28,4 +28,6 @@
 
 .breakfast{
     background-image: url(../img/assets/foodtop/breakfast.jpg);
+    text-align: center;
+    color: white;
 }
