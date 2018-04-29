@@ -95,3 +95,20 @@ h3{
 #about{
     padding: 10px;
 }
+
+#subscribe{
+    background-image: url(../img/assets/backgrounds/subscribe.jpg);
+    color: white;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subscribe h3{
+    color: white;
+}
