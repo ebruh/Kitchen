@@ -5,6 +5,8 @@
     background-size: cover;
     background-attachment: fixed;
     padding-top: 10%;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 #islii{
@@ -18,6 +20,8 @@
     color: white;
     margin: 0%;
     padding: 17px;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 .center{
@@ -26,6 +30,8 @@
     color: white;
     margin: 0%;
     padding: 17px;
+    font-family: 'Indie Flower', cursive;
+
     
 }
 
@@ -35,6 +41,8 @@
     color: white;
     margin: 0%;
     padding: 50px;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 .lunch{
@@ -46,6 +54,8 @@
     background-repeat: no-repeat;
     padding: 50px;
     margin: 0%;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 #dinner{
@@ -54,6 +64,8 @@
     color: white;
     padding: 50px;
     margin: 0%;
+    font-family: 'Indie Flower', cursive;
+
 }
 
 #wrapper{
