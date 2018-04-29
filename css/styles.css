@@ -76,6 +76,7 @@
 .btn-amber{
     color: red;
     image-rendering: auto;
+
 }
 
 .food-tabs{
@@ -84,8 +85,7 @@
     margin: 70px;
     background-attachment: fixed;
 }
-
-h3{
+#tab-content h3{
     color: orangered;
 }
 
@@ -116,11 +116,22 @@ h3{
 }
 
 #footer{
-    background-color: tomato;
+    background-color: #F15A29;
     margin-top: 0px;
     text-align: center;
     height: 300px;
     padding-top: 30px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+#footer img{
+    border: 0;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100px;
 }
