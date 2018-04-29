@@ -70,7 +70,7 @@
 
                     <div class="col-md-6">
                         <h1>Fastfood</h1>
-                        <h3>you'll love our delicious fast food</h3>
+                        <h2>you'll love our delicious fast food</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti qui nesciunt odit sint, neque
                             accusamus culpa doloribus ratione repellat, aliquam voluptatum temporibus. Unde reiciendis recusandae
                             quae placeat aliquam, necessitatibus ut. Deleniti qui nesciunt odit sint, neque accusamus culpa
@@ -94,7 +94,7 @@
             <div class="col-md-6 text">
 
                 <h1>Drinks</h1>
-                <h3>We also produce delicious drinks</h3>
+                <h2>We also produce delicious drinks</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quaerat velit quisquam consequatur, nesciunt
                     ab facere cum. Facilis, illo amet nisi at aut dolore, modi velit fugit quis itaque unde.</p>
                 <button class="btn btn-default btn-lg btn-amber">VIEW GALLERY &longrightarrow;
@@ -120,39 +120,65 @@
     <!-- end of the container -->
 
     <div class="container-fluid food-tabs">
-      
-            <div class="container">
-                <div class="row tabBg ">
 
-                    <ul class="nav nav-tabs
-                nav-justified">
-                        <li class="active">
-                            <a href="#" data-toggle="tab">Fast Food</a>
-                        </li>
-                        <li class="disabled">
-                            <a href="#" data-toggle="tab">Drinks</a>
-                        </li>
-                        <li class="disabled">
-                            <a href="#" data-toggle="tab">Chiken</a>
-                        </li>
-                        <li class="disabled">
-                            <a href="#" data-toggle="tab">Rice</a>
-                        </li>
-                    </ul>
-                    <img src="img/assets/fastfood/chickenBurger.jpg" alt="chicken Burger">
-                    <img src="img/assets/fastfood/beefBurger.jpg" alt="">
-                    <img src="img/assets/fastfood/chickenPizza.jpg" alt="">
+        <div class="container">
+            <div class="row tabBg ">
+                <!-- navigation -->
+                <ul class="nav nav-tabs nav-justified">
+                    <li class="active">
+                        <a href="#" data-toggle="tab">Fast Food</a>
+                    </li>
+                    <li class="active">
+                        <a href="#" data-toggle="tab">Drinks</a>
+                    </li>
+                    <li class="active">
+                        <a href="#" data-toggle="tab">Chiken</a>
+                    </li>
+                    <li class="active">
+                        <a href="#" data-toggle="tab">Rice</a>
+                    </li>
+                </ul>
+
+                <!-- content -->
+
+                <div id="tab-content">
+                    <div class="tap-pane in active" id="pane">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <img src="img/assets/fastfood/chickenBurger.jpg" alt="chicken Burger">
+                                <h3>Chicken Burger</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/assets/fastfood/beefBurger.jpg" alt="">
+                                <h3>Beef Burger</h3>
+                            </div>
+
+                            <div class="col-md-4">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <img src="img/assets/fastfood/chickenPizza.jpg" alt="">
+                                <h3>Chicken Pizza</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-     
 
-    </div>
-
+        </div>
 
 
 
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/scripts.js"></script>
+
+
+
+
+
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
