@@ -112,3 +112,12 @@ h3{
 #subscribe h3{
     color: white;
 }
+
+#footer{
+    background-color: tomato;
+    margin-top: 0px;
+    text-align: center;
+    height: 300px;
+    padding-top: 30px;
+    color: white;
+}
