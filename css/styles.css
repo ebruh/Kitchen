@@ -82,6 +82,7 @@
     background-image: url(../img/assets/backgrounds/foodsBg.jpg);
     padding: 30px;
     margin: 70px;
+    background-attachment: fixed;
 }
 
 h3{
@@ -107,6 +108,7 @@ h3{
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #subscribe h3{
@@ -120,4 +122,5 @@ h3{
     height: 300px;
     padding-top: 30px;
     color: white;
+
 }
