@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster+Two" rel="stylesheet">
     <title>Anita's kitchen</title>
@@ -15,24 +19,36 @@
 
 
 <body>
-
-    <!-- heading -->
-
+    <div class="hidenmenu">
+        <div class="fas fa-times close"></div>
+        <ul id="menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contacts</a>
+            </li>
+        </ul>
+    </div>
 
 
     <div class="row">
         <div class="logo">
+            <span id="navmenu" class="fas fa-bars"></span>
             <img src="img/assets/logoBig.png" alt="Logo" class="logo-img img-responsive center-block">
             <h1 id="islii">We Provide The Best Food</br>At The Right Price</h1>
         </div>
     </div>
 
 
-    <!-- row -->
 
     <div class="row">
 
         <div class="col-md-3">
+
 
             <h2 id="center">Happy Hour</h2>
 
@@ -42,39 +58,49 @@
 
 
 
-        <div class="col-md-3">
+        <div class="col-md-3" id="BreakFast">
+
             <h2 class="breakfast">breakfast</h2>
         </div>
 
 
-        <div class="col-md-3">
+
+        <div class="col-md-3" id="Lunch">
             <h2 class="lunch">lunch</h2>
         </div>
 
-        <div class="col-md-3">
+
+
+        <div class="col-md-3" id="Dinner">
             <h2 id="dinner">dinner</h2>
 
         </div>
 
+
+
     </div>
 
-    <!-- end of row -->
 
-    <div class="container">
+
+    <div class="container-fluid">
 
         <div class="fastfood" id="wrapper">
             <div id="fastfood-img">
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/assets/fastFood1.jpg" alt="">
-                        <img src="img/assets/fastFood2.jpg" alt="">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 fastfood2">
+
+                        <div class="Food">
+                            <img src="img/assets/fastFood1.jpg" alt="">
+                            <img src="img/assets/fastFood2.jpg" alt="">
+                        </div>
 
                     </div>
 
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <h1>Fastfood</h1>
                         <h2>you'll love our delicious fast food</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti qui nesciunt odit sint, neque
@@ -85,6 +111,7 @@
                         <button class="btn btn-default btn-lg btn-amber">VIEW GALLERY &longrightarrow;
                         </button>
                     </div>
+                    <div class="col-md-2"></div>
 
 
                 </div>
@@ -95,9 +122,10 @@
             </div>
 
         </div>
-        <!-- end of fast food -->
+
         <div class="row">
-            <div class="col-md-6 text">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 text1">
 
                 <h1>Drinks</h1>
                 <h2>We also produce delicious drinks</h2>
@@ -109,67 +137,72 @@
 
             </div>
 
-            <div class="drinks-img">
+            <div class="col-md-4 drinks-img">
 
                 <img class="img-responsive pull-right" src="img/assets/drink2.jpg" alt="">
                 <img class="img-responsive pull-right" src="img/assets/drink1.jpg" alt="">
 
             </div>
+            <div class="col-md-2"></div>
 
-            <!-- drinks -->
+
 
 
         </div>
 
     </div>
 
-    <!-- end of the container -->
+
 
     <div class="container-fluid food-tabs">
 
         <div class="container">
             <div class="row tabBg ">
-                <!-- navigation -->
+
                 <ul class="nav nav-tabs nav-justified">
-                    <li class="active">
+                    <li>
                         <a href="#" data-toggle="tab">Fast Food</a>
                     </li>
-                    <li class="active">
+                    <li class="notactive">
                         <a href="#" data-toggle="tab">Drinks</a>
                     </li>
-                    <li class="active">
+                    <li class="notactive">
                         <a href="#" data-toggle="tab">Chiken</a>
                     </li>
-                    <li class="active">
+                    <li class="notactive">
                         <a href="#" data-toggle="tab">Rice</a>
                     </li>
                 </ul>
 
-                <!-- content -->
 
                 <div id="tab-content">
                     <div class="tap-pane fade in active" id="pane">
-                        <div class="row">
+                        <div class="row meal">
 
 
-                            <div class="col-md-4">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            <div class="col-md-4 pizza">
                                 <img src="img/assets/fastfood/chickenBurger.jpg" alt="chicken Burger">
                                 <h3>Chicken Burger</h3>
                             </div>
-                            <div class="col-md-4">
+
+
+
+                            <div class="col-md-4 pizza">
 
                                 <span class="glyphicon glyphicon-chevron-center"></span>
                                 <img src="img/assets/fastfood/beefBurger.jpg" alt="">
                                 <h3>Beef Burger</h3>
                             </div>
 
-                            <div class="col-md-4">
+
+
+                            <div class="col-md-4 pizza">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                 <img src="img/assets/fastfood/chickenPizza.jpg" alt="">
                                 <h3>Chicken Pizza</h3>
 
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -180,48 +213,43 @@
 
     </div>
 
-    <!-- customer section -->
+
+
+
+
     <div id="customer-review" class="row container shadow center-block ">
 
-        <div class="customers" id="col-md-8 text-center pull-left">
-            <h4 class="orange-text">Our Happy Customers</h4>
+        <div class="col-md-8 text-center pull-left customer">
+            <h4>Our Happy Customers</h4>
             <h5>Giorge Richard</h5>
             <p>Great food! Menu is awesome, there foods are not only great</p>
             <p>but also in the right price.I'll highly recommend them :)</p>
-            <span class="glyphicon glyphicon-chevron-left orange-text"></span>
+            <span style="font-size:50px;color:#F15A29;"> &#8249; </span>
             <img src="img/assets/customers/p1.png" alt="">
             <img src="img/assets/customers/p2.png" alt="">
             <img src="img/assets/customers/p3.png" alt="">
-            <span class="glyphicon glyphicon-chevron-right "></span>
-
+            <span id="pdn" style="font-size:50px;color:#F15A29;"> &#8250; </span>
         </div>
-
-        <div id="about" class="col-md-4 pull-right text-center border-left">
-            <h4 class="orange-text">About Menu</h4>
+        <div class="col-md-4 text-center pull-right">
+            <h4>About Menu</h4>
             <p>We are a little team of 7 members. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime sunt, animi
                 placeat unde inventore quae impedit quos, repellat eligendi numquam ratione id exercitationem labore quis
-                nesciunt. </p>
-
+                nesciunt.
+            </p>
         </div>
-
     </div>
 
 
-    <!-- end of customer -->
+
+
 
 
     <div id="subscribe">
         <h3>Get our daily food items delivered to your email</h3>
+        <input id="userEmail" type="email" placeholder="Your Email" required>
+        <button type="submit" id="sbmtBtn" class="btn btn-default orange-btn">Subscribe</button>
 
-        <form class="subscribe-form" id="navbar-form nav-justified" role="search">
-            <div class="form-group">
 
-                <input id="userEmail" type="email" class="form-control box-input" placeholder="Your Email" required>
-            </div>
-            <button type="submit" id="sbmtBtn" class="btn btn-default orange-btn">Subscribe</button>
-        </form>
-
-        <!-- modal -->
         <div class="modal fade black-text" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -233,33 +261,28 @@
                         </button>
                         <h4 class="modal-tittle" id="myModalLabel">YOU DID IT!</h4>
                     </div>
-                    <!-- modal header -->
 
-                    <div class="modal-body">
-                        <p>
-                            <span class="userName-output"></span>
-                            has been successfully addded to our email list. Thank you
-                        </p>
-                    </div>
-                    <!-- modal body -->
+
+
+
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
                     </div>
-                    <!-- footer model -->
+
 
                 </div>
-                <!-- modal content -->
+
             </div>
-            <!-- model dialog -->
+
 
         </div>
-        <!-- modal -->
+
 
     </div>
 
-    <!-- subscribtion end -->
+
     <div id="footer">
         <h2>
             <img src="img/assets/footerlogos/logo_white.png" alt="">MENU</h2>
@@ -282,10 +305,10 @@
 
         </div>
 
-        
+
         <h5>2016 Menu Restaurant</h5>
     </div>
-    
+
 
 
 
