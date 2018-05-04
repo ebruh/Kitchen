@@ -19,8 +19,7 @@ HTML CSS BOOTSTRAP AND JS
 **link**
 
 
-https://github.com/ebruh/Kitchen
-
+https://ebruh.github.io/Kitchen/
 
 **License**
 
