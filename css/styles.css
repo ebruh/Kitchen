@@ -1,45 +1,46 @@
-#navmenu, .close{
+#navmenu,
+.close {
     font-size: 300%;
-  }
-  .close{
+}
+
+.close {
     left: 80%;
     color: white;
     top: 10%;
-  }
-  
-  #navmenu{
-      color: white;
-      padding-left: 8%; 
-  }
-  
-.hidenmenu{
+}
+
+#navmenu {
+    color: white;
+    padding-left: 8%;
+}
+
+.hidenmenu {
     display: none;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
     background-color: #F15A29;
-  
-  }
-  
-  #menu{
+}
+
+#menu {
     list-style: none;
     text-align: center;
     font-size: 29px;
     padding-top: 40vh;
-  }
-  #menu a{
-    color:black;
-  }
+}
 
-  #the-menu li{
+#menu a {
+    color: black;
+}
+
+#the-menu li {
     padding: 15%;
     font-size: 200%;
     text-transform: uppercase;
 }
 
-
-.logo{
+.logo {
     background-image: url(../img/assets/backgrounds/landing.jpg);
     height: 100vh;
     background-repeat: no-repeat;
@@ -47,41 +48,34 @@
     background-attachment: fixed;
     padding-top: 10%;
     font-family: 'Indie Flower', cursive;
-
 }
 
-#islii{
+#islii {
     text-align: center;
     color: white;
 }
 
-#center{
-    background-color: #F15A29; 
+#center {
+    background-color: #F15A29;
     text-align: center;
     color: white;
     margin: 0%;
     padding: 22px;
     font-family: 'Indie Flower', cursive;
     height: 89px;
-
-
 }
 
-.center{
+.center {
     background-color: silver;
-    text-align: center; 
+    text-align: center;
     color: white;
     margin: 0%;
     padding: 22px;
     font-family: 'Indie Flower', cursive;
     height: 89px;
-
-
-
-    
 }
 
-.breakfast{
+.breakfast {
     background-image: url(../img/assets/foodtop/breakfast.jpg);
     text-align: center;
     color: white;
@@ -91,15 +85,14 @@
     background-size: cover;
     align-items: center;
     padding-top: 85px;
-
 }
 
-.breakfast:hover{
+.breakfast:hover {
     color: black;
     opacity: 0.8;
 }
 
-.lunch{
+.lunch {
     background-image: url(../img/assets/foodtop/lunch.jpg);
     text-align: center;
     color: white;
@@ -111,15 +104,14 @@
     background-size: cover;
     align-items: center;
     padding-top: 85px;
-
 }
 
-.lunch:hover{
+.lunch:hover {
     color: black;
     opacity: 0.7;
 }
 
-#dinner{
+#dinner {
     background-image: url(../img/assets/foodtop/dinner.jpg);
     text-align: center;
     color: white;
@@ -129,35 +121,39 @@
     background-size: cover;
     align-items: center;
     padding-top: 85px;
-
 }
-#dinner:hover{
+
+#dinner:hover {
     color: black;
     opacity: 0.7;
 }
+
 .col-md-3 {
     padding: 0px;
 }
-#wrapper{
+
+#wrapper {
     margin: 3%;
     padding: 0%;
 }
 
-.btn-amber{
+.btn-amber {
     color: #F15A29;
     image-rendering: auto;
-
 }
-.Food{
+
+.Food {
     margin-left: 5vw;
     padding: 2vw;
     box-shadow: 0px 0px 20px 3px #ddd;
     margin-right: 2vw;
 }
-.Food img{
+
+.Food img {
     width: 100%;
 }
-.food-tabs{
+
+.food-tabs {
     background-image: url(../img/assets/backgrounds/foodsBg.jpg);
     padding: 100px;
     margin: 70px;
@@ -165,26 +161,27 @@
     background-size: cover;
     flex-direction: column;
 }
-#tab-content h3{
+
+#tab-content h3 {
     color: #F15A29;
 }
 
-.drinks-img{
+.drinks-img {
     margin-left: 5vw;
     padding: 2vw;
     box-shadow: 0px 0px 20px 3px #ddd;
     margin-right: 2vw;
 }
 
-.drinks-img img{
+.drinks-img img {
     width: 50%;
 }
 
-#about{
+#about {
     padding: 10px;
 }
 
-#subscribe{
+#subscribe {
     background-image: url(../img/assets/backgrounds/subscribe.jpg);
     color: white;
     height: 350px;
@@ -199,11 +196,11 @@
     margin-top: 13vh;
 }
 
-#subscribe h3{
+#subscribe h3 {
     color: white;
 }
 
-#footer{
+#footer {
     background-color: #F15A29;
     margin-top: 0px;
     text-align: center;
@@ -214,18 +211,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #footer h5 {
     margin: 70px;
 }
 
-.col-md-5{
+.col-md-5 {
     text-align: right;
 }
 
-#customer-review{
+#customer-review {
     padding: 20px;
     border: solid;
     border-width: 0px;
@@ -234,30 +230,42 @@
     margin-top: 79px;
 }
 
-.customer{
+.customer {
     border-right: solid;
     border-width: 1px;
     border-color: #ddd;
 }
-.meal{
+
+.customer h4{
+    color: #F15A29;
+}
+
+.text-center h4{
+    color: #F15A29;
+}
+
+.meal {
     background-color: white;
     margin: 0px;
 }
 
-.pizza{
+.pizza {
     padding: 0%;
     text-align: center;
 }
-.pizza img{
+
+.pizza img {
     padding-top: 10px;
 }
+
 .tabBg li {
     background-color: white;
-    border:none;
+    border: none;
 }
+
 .tabBg .notactive {
     background-color: #ddd;
     border-left: solid;
-    border-bottom:solid;
+    border-bottom: solid;
     border-width: 1px;
 }
