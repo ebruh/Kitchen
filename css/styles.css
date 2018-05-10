@@ -2,7 +2,10 @@
 .close {
     font-size: 300%;
 }
-
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .close {
     left: 80%;
     color: white;
@@ -228,6 +231,7 @@
     box-shadow: 0px 0px 12px 3px #ddd;
     padding: 30px;
     margin-top: 79px;
+    margin-left: 250px;
 }
 
 .customer {
@@ -270,6 +274,3 @@
     border-width: 1px;
 }
 
-.civil{
-    margin: 0px;
-}
